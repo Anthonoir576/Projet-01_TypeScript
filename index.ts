@@ -42,6 +42,7 @@ console.log(array2);
 let array3  : number[]                         = [];
 let array4  : number[] | string[] | boolean[]  = [];
 let array5  : (number | string | boolean)[]    = [];
+let tableau : (number | boolean)[]             = [];
 
 array4[0]   = 45; 
 array4[1]   = '45'; 
@@ -53,5 +54,12 @@ array5[2]   = true;
 
 console.log(array4);
 console.log(array5);
+console.log(tableau);
+
+tableau.push(false); 
+tableau.push(24);
+
+console.log(tableau);
+
 
 // --------------------------

@@ -26,6 +26,7 @@ console.log(array2);
 let array3 = [];
 let array4 = [];
 let array5 = [];
+let tableau = [];
 array4[0] = 45;
 array4[1] = '45';
 array4[2] = false;
@@ -34,4 +35,8 @@ array5[1] = '47';
 array5[2] = true;
 console.log(array4);
 console.log(array5);
+console.log(tableau);
+tableau.push(false);
+tableau.push(24);
+console.log(tableau);
 // --------------------------
