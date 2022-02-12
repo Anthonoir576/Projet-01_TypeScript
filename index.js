@@ -86,4 +86,8 @@ console.log(orelsan);
 console.log(nekfeu);
 // --------------------------
 // -----  Fonction  ---------
+const ditMonNomBoy = (name) => {
+    console.log(`hello ${name}`);
+};
+ditMonNomBoy('antho');
 // --------------------------

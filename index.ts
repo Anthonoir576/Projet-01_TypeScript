@@ -149,6 +149,12 @@ console.log(nekfeu);
 
 // -----  Fonction  ---------
 
+const ditMonNomBoy = (name?: string) => {
 
+    console.log(`hello ${name}`);
+
+};
+
+ditMonNomBoy('antho');
 
 // --------------------------
