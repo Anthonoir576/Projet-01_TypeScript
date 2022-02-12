@@ -91,7 +91,7 @@ interface Joueur {
     prenom? : string
 };
 
-let joueur3:Joueur = {
+let joueur3 :Joueur = {
     id      : 3,
     nom     : 'moi3',
     prenom  : 'antho'
@@ -108,9 +108,9 @@ let joueurs = {
 console.log(joueurs);
 console.log(joueur3.nom);
 
-let joueur4:Joueur = {
-    id : 5,
-    prenom: 'antho2'
+let joueur4 :Joueur = {
+    id      : 5,
+    prenom  : 'antho2'
 };
 
 console.log(joueur4);
