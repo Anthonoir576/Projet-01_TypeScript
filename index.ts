@@ -81,13 +81,30 @@ let joueur2 = {
     nom : 'moi2'
 }; 
 
+// NON joueur1.prenom = 'antho';
+// On ne peut ajouter un prenom de cette façon
+// Il faut créer un schéma un peu comme mongoose 
+interface Joueur {
+    id     : number,
+    nom    : string,
+    prenom : string
+};
+
+let joueur3:Joueur = {
+    id      : 3,
+    nom     : 'moi3',
+    prenom  : 'antho'
+};
+
+console.log(joueur3);
+
 let joueurs = {
     joueur1 : joueur1,
-    joueur2 : joueur2
+    joueur2 : joueur2,
+    joueur3 : joueur3
 };
 
 console.log(joueurs);
-console.log(joueur1.nom);
-
+console.log(joueur3.nom);
 
 // --------------------------

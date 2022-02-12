@@ -50,10 +50,18 @@ let joueur2 = {
     id: 2,
     nom: 'moi2'
 };
+;
+let joueur3 = {
+    id: 3,
+    nom: 'moi3',
+    prenom: 'antho'
+};
+console.log(joueur3);
 let joueurs = {
     joueur1: joueur1,
-    joueur2: joueur2
+    joueur2: joueur2,
+    joueur3: joueur3
 };
 console.log(joueurs);
-console.log(joueur1.nom);
+console.log(joueur3.nom);
 // --------------------------
