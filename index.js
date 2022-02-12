@@ -42,4 +42,18 @@ console.log(tableau);
 // --------------------------
 // -------- Objet -----------
 let obj = {};
+let joueur1 = {
+    id: 1,
+    nom: 'moi'
+};
+let joueur2 = {
+    id: 2,
+    nom: 'moi2'
+};
+let joueurs = {
+    joueur1: joueur1,
+    joueur2: joueur2
+};
+console.log(joueurs);
+console.log(joueur1.nom);
 // --------------------------
