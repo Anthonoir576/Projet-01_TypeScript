@@ -64,4 +64,9 @@ let joueurs = {
 };
 console.log(joueurs);
 console.log(joueur3.nom);
+let joueur4 = {
+    id: 5,
+    prenom: 'antho2'
+};
+console.log(joueur4);
 // --------------------------

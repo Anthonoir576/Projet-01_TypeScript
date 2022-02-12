@@ -84,10 +84,11 @@ let joueur2 = {
 // NON joueur1.prenom = 'antho';
 // On ne peut ajouter un prenom de cette façon
 // Il faut créer un schéma un peu comme mongoose 
+// le '?' Permet de dire qu'il est pas obligatoire de mettre un prenom par exemple si j'avais pas mis ce point d'interrogation, j'aurais été obligé de mettre un prenom
 interface Joueur {
-    id     : number,
-    nom    : string,
-    prenom : string
+    id?     : number,
+    nom?    : string,
+    prenom? : string
 };
 
 let joueur3:Joueur = {
@@ -106,5 +107,13 @@ let joueurs = {
 
 console.log(joueurs);
 console.log(joueur3.nom);
+
+let joueur4:Joueur = {
+    id : 5,
+    prenom: 'antho2'
+};
+
+console.log(joueur4);
+
 
 // --------------------------
