@@ -22,4 +22,10 @@ console.log(array2);
 array2[0] = 'cheval';
 console.log(array2);
 console.log(array2);
+let array3 = [];
+let array4 = [];
+array4[0] = 45;
+array4[1] = '45';
+array4[2] = false;
+console.log(array4);
 // --------------------------
