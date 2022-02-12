@@ -123,6 +123,23 @@ console.log(joueur4);
 
 // -------  Classe  ---------
 
+class Chanteur {
+    id     :number;
+    nom    :string | number;
+    alive? :boolean;
+
+    constructor(id: number, nom: string | number, alive?: boolean) {
+        this.id     = id;
+        this.nom    = nom;
+        this.alive  = alive;
+    };
+};
+
+const orelsan = new Chanteur(10, 'orelsan', true);
+const nekfeu  = new Chanteur(11, 'nekfeu');
+
+console.log(orelsan);
+console.log(nekfeu);
 
 
 // --------------------------

@@ -71,4 +71,17 @@ let joueur4 = {
 console.log(joueur4);
 // --------------------------
 // -------  Classe  ---------
+class Chanteur {
+    constructor(id, nom, alive) {
+        this.id = id;
+        this.nom = nom;
+        this.alive = alive;
+    }
+    ;
+}
+;
+const orelsan = new Chanteur(10, 'orelsan', true);
+const nekfeu = new Chanteur(11, 'nekfeu');
+console.log(orelsan);
+console.log(nekfeu);
 // --------------------------
