@@ -85,3 +85,5 @@ const nekfeu = new Chanteur(11, 'nekfeu');
 console.log(orelsan);
 console.log(nekfeu);
 // --------------------------
+// -----  Fonction  ---------
+// --------------------------
