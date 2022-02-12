@@ -40,3 +40,5 @@ tableau.push(false);
 tableau.push(24);
 console.log(tableau);
 // --------------------------
+// -------- Objet -----------
+// --------------------------
