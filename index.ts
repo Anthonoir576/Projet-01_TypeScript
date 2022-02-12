@@ -124,9 +124,9 @@ console.log(joueur4);
 // -------  Classe  ---------
 
 class Chanteur {
-    id     :number;
-    nom    :string | number;
-    alive? :boolean;
+    id              :number;
+    nom             :string | number;
+    alive?          :boolean;
 
     constructor(id: number, nom: string | number, alive?: boolean) {
         this.id     = id;
