@@ -157,10 +157,20 @@ const ditMonNomBoy = (name?: string) => {
 ditMonNomBoy('antho');
 
 
-const ageDuKeum = (age: number | string, size?: Number) {
+const ageDuKeum = (age: number | string, size?: Number) => {
 
-    console.log();
-    
+    if (size) {
+      
+        console.log(`La taille du mec est de ${size} cm et il est agé de ${age} ans`);
+        
+    } else {
+
+        console.log(`l'age du mec est de ${age} ans`);
+
+    };   
 
 };
+
+ageDuKeum(18, 170);
+ageDuKeum(18);
 // --------------------------

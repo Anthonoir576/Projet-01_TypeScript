@@ -91,6 +91,14 @@ const ditMonNomBoy = (name) => {
 };
 ditMonNomBoy('antho');
 const ageDuKeum = (age, size) => {
-    console.log();
+    if (size) {
+        console.log(`La taille du mec est de ${size} cm et il est agé de ${age} ans`);
+    }
+    else {
+        console.log(`l'age du mec est de ${age} ans`);
+    }
+    ;
 };
+ageDuKeum(18, 170);
+ageDuKeum(18);
 // --------------------------
