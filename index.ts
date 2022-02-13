@@ -154,7 +154,13 @@ const ditMonNomBoy = (name?: string) => {
     console.log(`hello ${name}`);
 
 };
-
 ditMonNomBoy('antho');
 
+
+const ageDuKeum = (age: number | string, size?: Number) {
+
+    console.log();
+    
+
+};
 // --------------------------

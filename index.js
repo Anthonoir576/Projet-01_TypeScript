@@ -90,4 +90,7 @@ const ditMonNomBoy = (name) => {
     console.log(`hello ${name}`);
 };
 ditMonNomBoy('antho');
+const ageDuKeum = (age, size) => {
+    console.log();
+};
 // --------------------------
