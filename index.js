@@ -102,3 +102,5 @@ const ageDuKeum = (age, size) => {
 ageDuKeum(18, 170);
 ageDuKeum(18);
 // --------------------------
+// ----- ENUM & TUPLE  ------
+// --------------------------

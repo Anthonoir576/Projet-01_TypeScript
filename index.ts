@@ -173,4 +173,14 @@ const ageDuKeum = (age: number | string, size?: Number) => {
 
 ageDuKeum(18, 170);
 ageDuKeum(18);
+
+// --------------------------
+
+
+
+
+// ----- ENUM & TUPLE  ------
+
+
+
 // --------------------------
