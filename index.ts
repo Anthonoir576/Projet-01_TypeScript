@@ -182,5 +182,54 @@ ageDuKeum(18);
 // ----- ENUM & TUPLE  ------
 
 
+// TUPLE
+interface User {
+    name        : string;
+    attributes  : [number, string];
+    role?       : Role
+};
+
+// ENUM
+
+enum Role {ADMIN, PREMIUM, BASIC}
+
+console.log(Role.ADMIN);
+console.log(Role.PREMIUM);
+console.log(Role.BASIC);
+
+const user1:User = {
+    name        : 'anthony',
+    attributes  : [24, 'ici'],
+    role        : Role.BASIC
+};
+
+const user2:User = {
+    name        : 'anthony',
+    attributes  : [24, 'ici'],
+    role        : Role.ADMIN,
+};
+
+if (user2.role === Role.ADMIN) {
+
+    console.log('connexion administrateur');
+    
+
+} else {
+
+    console.log('connexion basic');
+
+}
+
+
+if (user1.role === Role.ADMIN) {
+
+    console.log('connexion administrateur');
+    
+
+} else {
+
+    console.log('connexion basic');
+
+}
 
 // --------------------------

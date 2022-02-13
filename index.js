@@ -101,6 +101,37 @@ const ageDuKeum = (age, size) => {
 };
 ageDuKeum(18, 170);
 ageDuKeum(18);
-// --------------------------
-// ----- ENUM & TUPLE  ------
+;
+// ENUM
+var Role;
+(function (Role) {
+    Role[Role["ADMIN"] = 0] = "ADMIN";
+    Role[Role["PREMIUM"] = 1] = "PREMIUM";
+    Role[Role["BASIC"] = 2] = "BASIC";
+})(Role || (Role = {}));
+console.log(Role.ADMIN);
+console.log(Role.PREMIUM);
+console.log(Role.BASIC);
+const user1 = {
+    name: 'anthony',
+    attributes: [24, 'ici'],
+    role: Role.BASIC
+};
+const user2 = {
+    name: 'anthony',
+    attributes: [24, 'ici'],
+    role: Role.ADMIN,
+};
+if (user2.role === Role.ADMIN) {
+    console.log('connexion administrateur');
+}
+else {
+    console.log('connexion basic');
+}
+if (user1.role === Role.ADMIN) {
+    console.log('connexion administrateur');
+}
+else {
+    console.log('connexion basic');
+}
 // --------------------------
